@@ -1,0 +1,24 @@
+.header__top {
+    background: var(--first-color-alt);
+    border-bottom: 1px solid var(--first-color);
+    padding-block: 0.875rem;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__contact span {
+    margin-left: 2rem;
+}
+
+.header__contact span,
+.header__alert-news,
+.header__top-action {
+    font-size: var(--small-font-size);
+}
+
+

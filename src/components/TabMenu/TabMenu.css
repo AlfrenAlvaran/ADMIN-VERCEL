@@ -1,0 +1,20 @@
+.tab__btns {
+    display: flex;
+    column-gap: 0.75rem;
+}
+
+.tab__btn {
+    background: var(--container-color);
+    color: var(--title-color);
+    padding: 1rem 1.25rem 0.875rem;
+    border-radius: .25rem;
+    font-family: var(--second-font);
+    font-size: var(--small-font-size);
+    font: 600px;
+    cursor: pointer;
+}
+
+.tab__btn.active {
+    color: var(--first-colot);
+    background: var(--second-color);
+}
